@@ -1,0 +1,305 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:routing app
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:routing app
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 11:40:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 11:43:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 11:43:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 11:43:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 11:43:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 11:43:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 11:43:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 11:43:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 11:43:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 11:43:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 11:43:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 11:45:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 11:45:55] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 11:45:55] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 11:46:15] "[33mPOST /review HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:log my final result []
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 13:24:14] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 13:24:14] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 13:24:15] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:root:log my final result []
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 13:24:23] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 13:24:23] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 13:24:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:log my final result []
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 13:25:18] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 13:25:18] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 13:25:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:log my final result []
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 13:25:25] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 13:25:25] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 13:25:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:log my final result []
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 13:31:18] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 13:31:18] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 13:31:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:name
+INFO:root:rating
+INFO:root:No comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone11', 'Name': 'Manish  Deshlahare', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Very very good'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'This is amazing at all'}, {'Product': 'iphone11', 'Name': 'Abhishek Sachdeva', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Feeling awesome after getting the delivery of my phone. Dual speakers makes the sound quality very loud. Amazing!!'}, {'Product': 'iphone11', 'Name': 'Steevan Rattra ', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Good Camera'}, {'Product': 'iphone11', 'Name': 'Vishnu Ramakrishnan', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Camera is awesomeBest battery backupA performer \U0001f44c\U0001f3fbIt will be a real value for money if they provide charger and earphone inbox!'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Photos super'}, {'Product': 'iphone11', 'Name': 'Dev', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Value for money \U0001f60d'}, {'Product': 'iphone11', 'Name': 'Vikram rapolu', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Perfect Product!!'}, {'Product': 'iphone11', 'Name': 'Parker Chetan', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...'}, {'Product': 'iphone11', 'Name': 'Sakshi Bharti', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Super\U0001f525 and good performance \U0001f44c\u2764\ufe0f'}, {'Product': 'iphone11', 'Name': 'Sakshi Bharti', 'Rating': 'No rating', 'CommentHead': 'No comment Heading', 'Comment': 'Super\U0001f525 and good performance \U0001f44c\u2764\ufe0f'}]
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 13:31:44] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 13:31:44] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 13:31:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:name
+INFO:root:rating
+INFO:root:No comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone11', 'Name': 'Manish  Deshlahare', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Very very good'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'This is amazing at all'}, {'Product': 'iphone11', 'Name': 'Abhishek Sachdeva', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Feeling awesome after getting the delivery of my phone. Dual speakers makes the sound quality very loud. Amazing!!'}, {'Product': 'iphone11', 'Name': 'Steevan Rattra ', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Good Camera'}, {'Product': 'iphone11', 'Name': 'Vishnu Ramakrishnan', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Camera is awesomeBest battery backupA performer \U0001f44c\U0001f3fbIt will be a real value for money if they provide charger and earphone inbox!'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Photos super'}, {'Product': 'iphone11', 'Name': 'Dev', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Value for money \U0001f60d'}, {'Product': 'iphone11', 'Name': 'Vikram rapolu', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Perfect Product!!'}, {'Product': 'iphone11', 'Name': 'Parker Chetan', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...'}, {'Product': 'iphone11', 'Name': 'Sakshi Bharti', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Super\U0001f525 and good performance \U0001f44c\u2764\ufe0f'}, {'Product': 'iphone11', 'Name': 'Sakshi Bharti', 'Rating': 'No rating', 'CommentHead': 'No comment Heading', 'Comment': 'Super\U0001f525 and good performance \U0001f44c\u2764\ufe0f'}]
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:00:04] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:00:04] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:00:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:log my final result []
+INFO:root:documents must be a non-empty list
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:00:15] "POST /review HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'motorola', 'Name': 'Vishal Rathod', 'Rating': '3', 'CommentHead': 'Decent product', 'Comment': 'Everything is smooth! But need to improvement in camera.'}, {'Product': 'motorola', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Nice phone,  smooth in performance, camera is good, overall great product'}, {'Product': 'motorola', 'Name': 'Kanha charan sia', 'Rating': '4', 'CommentHead': 'Good choice', 'Comment': 'Design:- Awesome Looking in Hand andLight WeightProcessor:- NormalRam and Rom Capacity:-GoodSound Experience is also Good.Smooth Running All Apps.Camera:- Average'}, {'Product': 'motorola', 'Name': '\u043deMA\u0e20t KU\u039ca\u044f 353', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Good performance but camera quality could be more effective.'}, {'Product': 'motorola', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Except camera 0.5x(need to improve focus and clarity , all good'}, {'Product': 'motorola', 'Name': 'Abdul Nazar M', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Produced is very nice and it has premium look'}, {'Product': 'motorola', 'Name': 'Ashim  Koley', 'Rating': '4', 'CommentHead': 'Very Good', 'Comment': 'Nice one .. good phone \U0001f933\u263a\ufe0f\u263a\ufe0f\u2764\ufe0f\U0001f44d\U0001f44d'}, {'Product': 'motorola', 'Name': 'Naveen Kumar', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': "If you want to buy this mobile for your parents or for normal tasks. I blindly suggest you to buy this mobile.Don't believe in any negative comments, everything is perfect with this phone. 1.You get more than 1 day battery life on normal usage2. You get a handful of Moto customisation options, which are really helpful3. Performance is good4. Call quality and speaker quality are also goodMotorola is doing really well in the market. Thanks Flipkart for quick delivery."}, {'Product': 'motorola', 'Name': 'Paradip  Sen Roy', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': "I used the mobile one day. As far as I understand it is very good for day to day use.I can say this much that you can use the mobile with everyone. Only one small problem, the phone gets a little hot for the snapdragon 695 processor.It is good if you don't take it for playing games but it is best if you take it for general work .As my comment Back Camera - 09 / 10Font Camera - 08 / 10Display - 10 / 10Battery - 08 / 10Performance - 08 / 10Charging - 09 / 10Design - 10 / 10Packagin..."}, {'Product': 'motorola', 'Name': 'Jainul  Hashmi', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': "It's day one and it's look nice product at this prize range"}, {'Product': 'motorola', 'Name': 'Jainul  Hashmi', 'Rating': 'No rating', 'CommentHead': 'No comment Heading', 'Comment': "It's day one and it's look nice product at this prize range"}]
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:00:23] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:00:23] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:00:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:02:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:02:50] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:02:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:02:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:02:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:02:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:03:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:03:35] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:03:35] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:03:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'Motorola', 'Name': 'rajvir', 'Rating': '1', 'CommentHead': 'Waste of money!', 'Comment': '8gb ram froud because my old device 4gb ram redmi note 9 pro much better and camera quality very poor and slow device money waste phone please dont buy this moto e 13'}, {'Product': 'Motorola', 'Name': 'Thakur Balmukund Singh', 'Rating': '1', 'CommentHead': 'Useless product', 'Comment': 'Waste mobile very poor and very slow performance and there is no proper customer support'}, {'Product': 'Motorola', 'Name': 'Sudhanshu  Kumar ', 'Rating': '1', 'CommentHead': 'Not recommended at all', 'Comment': 'Very poor camera'}, {'Product': 'Motorola', 'Name': 'Flipkart Customer', 'Rating': '1', 'CommentHead': 'Utterly Disappointed', 'Comment': 'Product is ok for its worth... But display is not so as expected'}, {'Product': 'Motorola', 'Name': 'Papay  Sau', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'I like this mobile'}, {'Product': 'Motorola', 'Name': 'Shahrukh Khan', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Amazing'}, {'Product': 'Motorola', 'Name': 'Rochak Gupta', 'Rating': '1', 'CommentHead': 'Horrible', 'Comment': "Don't buy this phone many many problems in this phone \u274c\u274cThis mobile get's heat to earlyCharging is  very slow Performance is also bad Speakers are below average"}, {'Product': 'Motorola', 'Name': 'sandeep rajbhar', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Nice phone'}, {'Product': 'Motorola', 'Name': 'Siddik Makrani', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Very Nice mobile'}, {'Product': 'Motorola', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Very nice phone  I am so happy \U0001f60a\u2764\ufe0f'}, {'Product': 'Motorola', 'Name': 'Flipkart Customer', 'Rating': 'No rating', 'CommentHead': 'No comment Heading', 'Comment': 'Very nice phone  I am so happy \U0001f60a\u2764\ufe0f'}]
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:03:43] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:03:43] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:03:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'Motorola', 'Name': 'rajvir', 'Rating': '1', 'CommentHead': 'Waste of money!', 'Comment': '8gb ram froud because my old device 4gb ram redmi note 9 pro much better and camera quality very poor and slow device money waste phone please dont buy this moto e 13'}, {'Product': 'Motorola', 'Name': 'Thakur Balmukund Singh', 'Rating': '1', 'CommentHead': 'Useless product', 'Comment': 'Waste mobile very poor and very slow performance and there is no proper customer support'}, {'Product': 'Motorola', 'Name': 'Sudhanshu  Kumar ', 'Rating': '1', 'CommentHead': 'Not recommended at all', 'Comment': 'Very poor camera'}, {'Product': 'Motorola', 'Name': 'Flipkart Customer', 'Rating': '1', 'CommentHead': 'Utterly Disappointed', 'Comment': 'Product is ok for its worth... But display is not so as expected'}, {'Product': 'Motorola', 'Name': 'Papay  Sau', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'I like this mobile'}, {'Product': 'Motorola', 'Name': 'Shahrukh Khan', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Amazing'}, {'Product': 'Motorola', 'Name': 'Rochak Gupta', 'Rating': '1', 'CommentHead': 'Horrible', 'Comment': "Don't buy this phone many many problems in this phone \u274c\u274cThis mobile get's heat to earlyCharging is  very slow Performance is also bad Speakers are below average"}, {'Product': 'Motorola', 'Name': 'sandeep rajbhar', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Nice phone'}, {'Product': 'Motorola', 'Name': 'Siddik Makrani', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Very Nice mobile'}, {'Product': 'Motorola', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Very nice phone  I am so happy \U0001f60a\u2764\ufe0f'}, {'Product': 'Motorola', 'Name': 'Flipkart Customer', 'Rating': 'No rating', 'CommentHead': 'No comment Heading', 'Comment': 'Very nice phone  I am so happy \U0001f60a\u2764\ufe0f'}]
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:03:55] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:03:55] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:03:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'Iphone', 'Name': 'Ajin V', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'High quality camera\U0001f60d'}, {'Product': 'Iphone', 'Name': 'Sheetla Prasad Maurya', 'Rating': '4', 'CommentHead': 'Worth the money', 'Comment': 'Best mobile phoneCamera quality is very nice Battery backup is very good Sound quality is amazing.'}, {'Product': 'Iphone', 'Name': 'Nikhil Kumar', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Switch from OnePlus to iPhone I am stunned with camera performance. Everything is perfect on  iPhone 15.'}, {'Product': 'Iphone', 'Name': 'Prithivi Boruah', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Camera Quality Is Improved Loving It'}, {'Product': 'Iphone', 'Name': 'Mousam  Guha Roy', 'Rating': '4', 'CommentHead': 'Good choice', 'Comment': 'Very nice'}, {'Product': 'Iphone', 'Name': 'mohit  yadav ', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Nice \u2764\ufe0f'}, {'Product': 'Iphone', 'Name': 'Talim (sk)', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'I love this phone. The camera is amazing: its I am so happy'}, {'Product': 'Iphone', 'Name': 'Ankit  Verma ', 'Rating': '4', 'CommentHead': 'Really Nice', 'Comment': 'Awesome camra quality superb camra \U0001f60a'}, {'Product': 'Iphone', 'Name': 'Rahul Shedge', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'Totally happy!Camera 5Battery 5 Display 5Design 5'}, {'Product': 'Iphone', 'Name': 'Saurabh Gothwad', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Simply premium.'}, {'Product': 'Iphone', 'Name': 'Saurabh Gothwad', 'Rating': 'No rating', 'CommentHead': 'No comment Heading', 'Comment': 'Simply premium.'}]
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:04:03] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:04:03] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:04:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:05:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:05:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:05:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:05:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:05:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:05:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:07:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:07:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:07:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:09:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:09:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:09:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'lgac', 'Name': 'Gangulanna Gari  Munendra ', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Good \U0001f44d'}, {'Product': 'lgac', 'Name': 'saikumar karri', 'Rating': '4', 'CommentHead': 'Value-for-money', 'Comment': 'Power consumption is very less I used to get 600 bill during winters now in summer getting 1250 on an average. I am running the ac continuesly from 9:00pm to 4:00 Am and sometimes on afternoon(very few times)'}, {'Product': 'lgac', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Amazing \U0001f44f'}, {'Product': 'lgac', 'Name': 'Dhanraj Hareshbhai  Tadvi ', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Very good Ac,very good installingm team...\U0001f601'}, {'Product': 'lgac', 'Name': 'Rakesh V', 'Rating': '4', 'CommentHead': 'Good quality product', 'Comment': 'Ok for this price range. Cooling is outstanding. Installation is good.'}, {'Product': 'lgac', 'Name': 'Abishek S', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Samsung Air conditioner was good in cooling, electricity consumption, Look, noise free. If they give five years warranty on pcb will be good. Rest of the things ok.'}, {'Product': 'lgac', 'Name': 'Sandip  Jana', 'Rating': '4', 'CommentHead': 'Value-for-money', 'Comment': 'Nice'}, {'Product': 'lgac', 'Name': 'Shruti Pandey', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'Very good'}, {'Product': 'lgac', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': "First of all let's start with the pros 1. The indoor unit is quite compact and the fact that it works without stabilizer is a big relief as in places like delhi where the room are quite small it saves space 2. The indoor unit takes about 3 minutes approximately to cool then after the room cools completely the outdoor unit shuts off and the cooling is quite good for a 1bhk 3. The product design is quite good.4. The ac doesn't make much sound  Cons 1. Samsung needs to improve on the inst..."}, {'Product': 'lgac', 'Name': 'Kumara swamy muduguru', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Good'}, {'Product': 'lgac', 'Name': 'Kumara swamy muduguru', 'Rating': 'No rating', 'CommentHead': 'No comment Heading', 'Comment': 'Good'}]
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:09:32] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:09:32] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:09:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'lgac', 'Name': 'Gangulanna Gari  Munendra ', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Good \U0001f44d'}, {'Product': 'lgac', 'Name': 'saikumar karri', 'Rating': '4', 'CommentHead': 'Value-for-money', 'Comment': 'Power consumption is very less I used to get 600 bill during winters now in summer getting 1250 on an average. I am running the ac continuesly from 9:00pm to 4:00 Am and sometimes on afternoon(very few times)'}, {'Product': 'lgac', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Amazing \U0001f44f'}, {'Product': 'lgac', 'Name': 'Dhanraj Hareshbhai  Tadvi ', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Very good Ac,very good installingm team...\U0001f601'}, {'Product': 'lgac', 'Name': 'Rakesh V', 'Rating': '4', 'CommentHead': 'Good quality product', 'Comment': 'Ok for this price range. Cooling is outstanding. Installation is good.'}, {'Product': 'lgac', 'Name': 'Abishek S', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Samsung Air conditioner was good in cooling, electricity consumption, Look, noise free. If they give five years warranty on pcb will be good. Rest of the things ok.'}, {'Product': 'lgac', 'Name': 'Sandip  Jana', 'Rating': '4', 'CommentHead': 'Value-for-money', 'Comment': 'Nice'}, {'Product': 'lgac', 'Name': 'Shruti Pandey', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'Very good'}, {'Product': 'lgac', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': "First of all let's start with the pros 1. The indoor unit is quite compact and the fact that it works without stabilizer is a big relief as in places like delhi where the room are quite small it saves space 2. The indoor unit takes about 3 minutes approximately to cool then after the room cools completely the outdoor unit shuts off and the cooling is quite good for a 1bhk 3. The product design is quite good.4. The ac doesn't make much sound  Cons 1. Samsung needs to improve on the inst..."}, {'Product': 'lgac', 'Name': 'Kumara swamy muduguru', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Good'}, {'Product': 'lgac', 'Name': 'Kumara swamy muduguru', 'Rating': 'No rating', 'CommentHead': 'No comment Heading', 'Comment': 'Good'}]
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:10:08] "POST /review HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'LGAC', 'Name': 'Gangulanna Gari  Munendra ', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Good \U0001f44d'}, {'Product': 'LGAC', 'Name': 'saikumar karri', 'Rating': '4', 'CommentHead': 'Value-for-money', 'Comment': 'Power consumption is very less I used to get 600 bill during winters now in summer getting 1250 on an average. I am running the ac continuesly from 9:00pm to 4:00 Am and sometimes on afternoon(very few times)'}, {'Product': 'LGAC', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Amazing \U0001f44f'}, {'Product': 'LGAC', 'Name': 'Dhanraj Hareshbhai  Tadvi ', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Very good Ac,very good installingm team...\U0001f601'}, {'Product': 'LGAC', 'Name': 'Rakesh V', 'Rating': '4', 'CommentHead': 'Good quality product', 'Comment': 'Ok for this price range. Cooling is outstanding. Installation is good.'}, {'Product': 'LGAC', 'Name': 'Abishek S', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Samsung Air conditioner was good in cooling, electricity consumption, Look, noise free. If they give five years warranty on pcb will be good. Rest of the things ok.'}, {'Product': 'LGAC', 'Name': 'Sandip  Jana', 'Rating': '4', 'CommentHead': 'Value-for-money', 'Comment': 'Nice'}, {'Product': 'LGAC', 'Name': 'Shruti Pandey', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'Very good'}, {'Product': 'LGAC', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': "First of all let's start with the pros 1. The indoor unit is quite compact and the fact that it works without stabilizer is a big relief as in places like delhi where the room are quite small it saves space 2. The indoor unit takes about 3 minutes approximately to cool then after the room cools completely the outdoor unit shuts off and the cooling is quite good for a 1bhk 3. The product design is quite good.4. The ac doesn't make much sound  Cons 1. Samsung needs to improve on the inst..."}, {'Product': 'LGAC', 'Name': 'Kumara swamy muduguru', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Good'}, {'Product': 'LGAC', 'Name': 'Kumara swamy muduguru', 'Rating': 'No rating', 'CommentHead': 'No comment Heading', 'Comment': 'Good'}]
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:10:24] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:10:24] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:10:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'LGAC', 'Name': 'Gangulanna Gari  Munendra ', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Good \U0001f44d'}, {'Product': 'LGAC', 'Name': 'saikumar karri', 'Rating': '4', 'CommentHead': 'Value-for-money', 'Comment': 'Power consumption is very less I used to get 600 bill during winters now in summer getting 1250 on an average. I am running the ac continuesly from 9:00pm to 4:00 Am and sometimes on afternoon(very few times)'}, {'Product': 'LGAC', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Amazing \U0001f44f'}, {'Product': 'LGAC', 'Name': 'Dhanraj Hareshbhai  Tadvi ', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Very good Ac,very good installingm team...\U0001f601'}, {'Product': 'LGAC', 'Name': 'Rakesh V', 'Rating': '4', 'CommentHead': 'Good quality product', 'Comment': 'Ok for this price range. Cooling is outstanding. Installation is good.'}, {'Product': 'LGAC', 'Name': 'Abishek S', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Samsung Air conditioner was good in cooling, electricity consumption, Look, noise free. If they give five years warranty on pcb will be good. Rest of the things ok.'}, {'Product': 'LGAC', 'Name': 'Sandip  Jana', 'Rating': '4', 'CommentHead': 'Value-for-money', 'Comment': 'Nice'}, {'Product': 'LGAC', 'Name': 'Shruti Pandey', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'Very good'}, {'Product': 'LGAC', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': "First of all let's start with the pros 1. The indoor unit is quite compact and the fact that it works without stabilizer is a big relief as in places like delhi where the room are quite small it saves space 2. The indoor unit takes about 3 minutes approximately to cool then after the room cools completely the outdoor unit shuts off and the cooling is quite good for a 1bhk 3. The product design is quite good.4. The ac doesn't make much sound  Cons 1. Samsung needs to improve on the inst..."}, {'Product': 'LGAC', 'Name': 'Kumara swamy muduguru', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Good'}, {'Product': 'LGAC', 'Name': 'Kumara swamy muduguru', 'Rating': 'No rating', 'CommentHead': 'No comment Heading', 'Comment': 'Good'}]
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:11:17] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:11:17] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:11:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:write() argument must be str, not dict
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:13:16] "POST /review HTTP/1.1" 200 -
+INFO:root:write() argument must be str, not dict
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:13:22] "POST /review HTTP/1.1" 200 -
+INFO:root:write() argument must be str, not dict
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:13:28] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:14:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:14:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:14:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:root:write() argument must be str, not dict
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:14:33] "POST /review HTTP/1.1" 200 -
+INFO:root:write() argument must be str, not dict
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:14:38] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:16:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:16:19] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:16:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:write() argument must be str, not dict
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:16:27] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:16:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:16:30] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:16:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:write() argument must be str, not dict
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:16:42] "POST /review HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:write() argument must be str, not dict
+INFO:werkzeug:192.168.1.5 - - [16/Feb/2024 14:16:43] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:name
+INFO:root:rating
+INFO:root:No comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:write() argument must be str, not list
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:17:19] "POST /review HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:write() argument must be str, not list
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:17:30] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:17:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:17:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:17:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:write() argument must be str, not list
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:17:58] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Feb/2024 14:18:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Feb/2024 14:18:33] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Feb/2024 14:18:33] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'motorola', 'Name': 'rajvir', 'Rating': '1', 'CommentHead': 'Waste of money!', 'Comment': '8gb ram froud because my old device 4gb ram redmi note 9 pro much better and camera quality very poor and slow device money waste phone please dont buy this moto e 13'}, {'Product': 'motorola', 'Name': 'Thakur Balmukund Singh', 'Rating': '1', 'CommentHead': 'Useless product', 'Comment': 'Waste mobile very poor and very slow performance and there is no proper customer support'}, {'Product': 'motorola', 'Name': 'Sudhanshu  Kumar ', 'Rating': '1', 'CommentHead': 'Not recommended at all', 'Comment': 'Very poor camera'}, {'Product': 'motorola', 'Name': 'Flipkart Customer', 'Rating': '1', 'CommentHead': 'Utterly Disappointed', 'Comment': 'Product is ok for its worth... But display is not so as expected'}, {'Product': 'motorola', 'Name': 'Papay  Sau', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'I like this mobile'}, {'Product': 'motorola', 'Name': 'Shahrukh Khan', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Amazing'}, {'Product': 'motorola', 'Name': 'Rochak Gupta', 'Rating': '1', 'CommentHead': 'Horrible', 'Comment': "Don't buy this phone many many problems in this phone \u274c\u274cThis mobile get's heat to earlyCharging is  very slow Performance is also bad Speakers are below average"}, {'Product': 'motorola', 'Name': 'sandeep rajbhar', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Nice phone'}, {'Product': 'motorola', 'Name': 'Siddik Makrani', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Very Nice mobile'}, {'Product': 'motorola', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Very nice phone  I am so happy \U0001f60a\u2764\ufe0f'}, {'Product': 'motorola', 'Name': 'Flipkart Customer', 'Rating': 'No rating', 'CommentHead': 'No comment Heading', 'Comment': 'Very nice phone  I am so happy \U0001f60a\u2764\ufe0f'}]
+INFO:werkzeug:127.0.0.1 - - [16/Feb/2024 14:18:41] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Feb/2024 14:18:41] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Feb/2024 14:18:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:23:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:23:14] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:23:14] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'motorola', 'Name': 'rajvir', 'Rating': '1', 'CommentHead': 'Waste of money!', 'Comment': '8gb ram froud because my old device 4gb ram redmi note 9 pro much better and camera quality very poor and slow device money waste phone please dont buy this moto e 13'}, {'Product': 'motorola', 'Name': 'Thakur Balmukund Singh', 'Rating': '1', 'CommentHead': 'Useless product', 'Comment': 'Waste mobile very poor and very slow performance and there is no proper customer support'}, {'Product': 'motorola', 'Name': 'Sudhanshu  Kumar ', 'Rating': '1', 'CommentHead': 'Not recommended at all', 'Comment': 'Very poor camera'}, {'Product': 'motorola', 'Name': 'Flipkart Customer', 'Rating': '1', 'CommentHead': 'Utterly Disappointed', 'Comment': 'Product is ok for its worth... But display is not so as expected'}, {'Product': 'motorola', 'Name': 'Papay  Sau', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'I like this mobile'}, {'Product': 'motorola', 'Name': 'Shahrukh Khan', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Amazing'}, {'Product': 'motorola', 'Name': 'Rochak Gupta', 'Rating': '1', 'CommentHead': 'Horrible', 'Comment': "Don't buy this phone many many problems in this phone \u274c\u274cThis mobile get's heat to earlyCharging is  very slow Performance is also bad Speakers are below average"}, {'Product': 'motorola', 'Name': 'sandeep rajbhar', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Nice phone'}, {'Product': 'motorola', 'Name': 'Siddik Makrani', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Very Nice mobile'}, {'Product': 'motorola', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Very nice phone  I am so happy \U0001f60a\u2764\ufe0f'}, {'Product': 'motorola', 'Name': 'Flipkart Customer', 'Rating': 'No rating', 'CommentHead': 'No comment Heading', 'Comment': 'Very nice phone  I am so happy \U0001f60a\u2764\ufe0f'}]
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:23:20] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:23:20] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.7 - - [16/Feb/2024 14:23:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
